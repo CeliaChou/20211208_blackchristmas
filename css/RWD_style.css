@@ -1,0 +1,525 @@
+@media screen and (max-width:1301px){
+    .page01{
+        padding-top: 225px;
+    }
+    .title{
+        margin: 50px auto 0px;
+    }
+    .logo {
+        width: 211px;
+        height: 112px;
+    }
+    .page_container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    /* .webp .page01 {background-image:url('../imgp/rwd_page01_bg.webp');}
+    .no-webp .page01 {background-image:url('../img/rwd_page01_bg.jpg');} */
+
+    /* ---------------btn_style / 按鈕樣式------------- */
+    .btn_style{
+        background-color: rgba(28,16,7,1);
+    }
+
+    .btn_fontstyle{
+        font-size: 25px;
+        line-height: 67px;
+    }
+
+    /* ----------------page_img / 內容 圖---------------- */
+    .page_imgbox{
+        /* display: block; */
+        margin:  0 auto 28px auto;
+    }
+
+    /* -------------inner_fontstyle / 內文樣式----------- */
+    .inner_fontstyle{
+        font-size: 20px;
+    }
+
+    /* ----------------divider / 分隔線---------------- */
+    .divider {
+        margin: 28px auto;
+    }
+
+    /* ----------------frame / 內容框---------------- */
+    .frame{
+        width: 97%;
+        margin: 28px auto;
+        background-image:none !important;
+        background-color: rgba(255, 242, 247,.7);
+        border: 1px solid #e53734;
+        height: auto;
+    }
+    .frame_innerbox{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        padding: 10px;
+    }
+
+    /* ----------------frame_fontstyle / 內容 文字---------------- */
+    .frame_title_font{
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .frame_inner_font{
+        font-size: 20px;
+        width: 100%;
+        line-height: 26px;
+    }
+    .frame_ul{
+        font-size: 20px;
+        width: 85%;
+    }
+
+    /* ----------------page_img / 內容 圖---------------- */
+    .page_img_fontbox{
+        height: auto;
+        padding: 10px;
+    }
+    
+    .page_imgbox > div{
+        height: auto;
+    }
+
+    .page_img_font{
+        font-size: 20px;
+    }
+
+    /* ----------------page_tab_btnbox / 頁籤按鈕---------------- */
+    .page_tab_btn{
+        width: 235px;
+        height: 65px;
+    }
+    .page_tab_btn p{
+        font-size: 25px;
+        line-height: 54px;
+    }
+
+    /* --------------------page_table / 表格------------------ */
+    .page_table{
+        width: 97%;
+    }
+    .page_table th p{
+        font-size: 22px;
+    }
+    .page_table td{
+        font-size: 18px;
+        border: 2px solid #85776c;
+    }
+    .icon_box picture , .icon_box p{
+        display: block;
+        vertical-align: middle;
+    }
+    /* --------------------notice_innerblock / 注意事項------------------ */
+    .notice_innerblock{
+        width: 97%;
+    }
+    .notice_innerblock ol li{
+        font-size: 16px;
+    }
+
+    /* -----------------------page01--------------------- */
+    .btnbox{
+        width: 100%;
+        margin: 55px auto 0 auto;
+    }
+
+    .btnbox ul li{
+        width: 250px;
+        height: 70px;
+    }
+    
+    .page01,.page02,.page03,.page04,.page05,.page06{
+        min-height: 780px;
+    }
+    .title{
+        width: 800px;
+        background-size: contain;
+    }
+    .man{
+        width: 1175px;
+        background-size: contain;
+        transform: translate(-69%,-34%);
+    }
+    @keyframes title-style{
+        0%{
+            opacity: 1
+            }
+        71%
+        {
+            transform:translate(-69%,-34%) scaleY(1) skewX(0deg);
+        }
+            
+        72%{
+            transform:translate(-69%,-34%) scaleY(2) skewX(-20deg);
+            opacity: 0.8;
+        }
+            
+        73%
+        {
+            transform:translate(-69%,-34%) scaleY(1) skewX(0deg);
+        }
+        80%{
+            opacity: 1        
+        }
+            
+        81%{
+            opacity: 0
+        }
+            
+        84%{
+            opacity: 0
+        }
+            
+        85%{
+            opacity: 1
+        }
+        92%{
+            transform:translate(-69%,-34%) translate(0px,0px);
+        }
+        91%{
+            transform:translate(-69%,-34%) scaleX(1) scaleY(1) skewX(0deg);
+        }
+            
+        92%{
+            transform:translate(-69%,-34%) scaleX(1.5) scaleY(.5) skewX(20deg);
+            opacity: 0.8;
+        }
+            
+        93%
+        {
+            transform:translate(-69%,-34%) scaleX(1) scaleY(1) skewX(0deg);
+        }
+            
+    }
+    /* ----------------------page02---------------------- */
+    .page02_img {
+        width: 320px;
+        overflow: hidden;
+    }
+
+    
+}
+
+@media screen and (max-width:769px){
+    
+
+     /* -----------------------page01--------------------- */
+    .btnbox ul{
+        display: block;
+    }
+    .btnbox ul li{
+        width: 350px;
+        margin: 5px auto;
+    }
+    .page01 {
+        padding-top: 190px;
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+
+    /* ----------------page_img / 內容 圖---------------- */
+    .page_imgbox{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid #fff; */
+        margin: 0 0 28px 0;
+    }
+
+    .page_imgbox > div{
+        margin: 5px auto;
+    }
+    /* ----------------------page02---------------------- */
+    .page02_img {
+        width: 425px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:541px){
+    /* ----------------divider / 分隔線---------------- */
+    .divider{
+        width: 100%;
+    }
+    .divider_02{
+        width: 100%;
+    }
+
+    /* -----------inner_fontstyle / 內文樣式----------- */
+    .inner_fontstyle{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .subtitle{
+    font-size: 30px;
+    letter-spacing: 2px;
+    }
+
+    /* -----------frame_fontstyle / 內容 文字----------- */
+    .frame_title_font{
+        font-size:  20px;
+    }
+    .frame_inner_font {
+        font-size: 16px;
+    }
+
+    /* ----------------page_img / 內容 圖---------------- */
+    .page_img_font{
+        font-size: 16px;
+    }
+
+    /* ------------page_tab_btnbox / 頁籤按鈕------------ */
+    .page_tab_btn {
+        width: 140px;
+        height: 50px;
+    }
+    .page_tab_btn p {
+        font-size: 20px;
+        line-height: 45px;
+    }
+
+    /* ------------------page_table / 表格--------------- */
+    .page_table th p{
+        font-size: 16px;
+    }
+    .page_table td {
+        font-size: 14px;
+    }
+    .page_table_fontstyle04{
+        text-align: left;
+    }
+    /* --------------------notice_innerblock / 注意事項------------------ */
+    .notice_innerblock {
+        padding: 10px;
+    }
+    .page01,.page02,.page03,.page04,.page05,.page06{
+        min-height: 710px;
+    }
+    /* -----------------------page01--------------------- */
+    .page01 {
+        padding-top: 165px;
+        background-position:bottom center;
+        height: 710px;
+    }
+    .logo {
+        width: 195px;
+        height: 103px;
+    }
+    .title {
+        width: 385px;
+        height: 209px;
+    }
+    .Sub-standard{
+        width: 335px;
+        height: 35px;
+        margin: 10px auto 0 auto;
+    }
+    .btnbox {
+        width: 100%;
+        margin: 25px auto 0 auto;
+    }
+    .btnbox ul li{
+        width: 250px;
+        height: 55px;
+        margin: 5px auto;
+    }
+    .btn_fontstyle{
+        font-size: 20px;
+        line-height: 49px;
+    }
+    .man{
+        width: 822px;
+        transform: translate(-69%,-39%);
+    }
+    @keyframes title-style{
+        0%{
+            opacity: 1
+            }
+        71%
+        {
+            transform:translate(-69%,-39%) scaleY(1) skewX(0deg);
+        }
+            
+        72%{
+            transform:translate(-69%,-39%) scaleY(2) skewX(-20deg);
+            opacity: 0.8;
+        }
+            
+        73%
+        {
+            transform:translate(-69%,-39%) scaleY(1) skewX(0deg);
+        }
+        80%{
+            opacity: 1        
+        }
+            
+        81%{
+            opacity: 0
+        }
+            
+        84%{
+            opacity: 0
+        }
+            
+        85%{
+            opacity: 1
+        }
+        92%{
+            transform:translate(-69%,-39%) translate(0px,0px);
+        }
+        91%{
+            transform:translate(-69%,-39%) scaleX(1) scaleY(1) skewX(0deg);
+        }
+            
+        92%{
+            transform:translate(-69%,-39%) scaleX(1.5) scaleY(.5) skewX(20deg);
+            opacity: 0.8;
+        }
+            
+        93%
+        {
+            transform:translate(-69%,-39%) scaleX(1) scaleY(1) skewX(0deg);
+        }
+            
+    }
+    .page01_front{
+        height: 710px;
+    }
+}
+
+@media screen and (max-width:415px){
+    /* ---------------- 跳窗區塊---------------- */
+    .popup-innerbox{
+        width: auto;
+    }
+    .page01_front{
+        height: 645px;
+    }
+    /* -----------------------page01--------------------- */
+    .logo {
+        width: 127px;
+        height: 66px;
+    }
+
+    /* -----------------------page02--------------------- */
+    .page02_img {
+        width: 360px;
+        height: 160px !important;
+    }
+}
+
+@media screen and (max-width:375px){
+    /* --------------------page_table / 表格------------------ */
+    .page_table td{
+        padding: 2px;
+    }
+
+    /* --------------------notice_innerblock / 注意事項------------------ */
+    .notice_innerblock {
+        padding: 2px;
+    }
+    .notice_innerblock ol{
+        padding: 0 0 0 25px;
+    }
+
+    .page01,.page02,.page03,.page04,.page05,.page06{
+        min-height: 650px;
+    }
+    /* -----------------------page01--------------------- */
+    .page01 {
+        height: 685px;
+    }
+    .title {
+        width: 305px;
+        height: 166px;
+    }
+    .logo {
+        width: 135px;
+        height: 70px;
+    }
+    .page01_front{
+        height: 565px;
+    }
+    /* -----------------------page02--------------------- */
+    .page02_img {
+        width: 320px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:321px){
+    /* ----------------inner_fontstyle / 內文樣式---------------- */
+    .inner_fontstyle{
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    /* ----------------frame_fontstyle / 內容 文字---------------- */
+    .frame_title_font {
+        font-size: 16px;
+    }
+    .frame_inner_font {
+        font-size: 14px;
+    }
+
+    /* ----------------page_tab_btnbox / 頁籤按鈕---------------- */
+    .page_tab_btn p {
+        font-size: 18px;
+    }
+    .page_table td {
+        padding: 5px;
+    }
+    /* --------------------notice_innerblock / 注意事項------------------ */
+    .notice_innerblock ol li {
+        font-size: 14px;
+    }
+
+    .page01,.page02,.page03,.page04,.page05,.page06{
+        min-height: 400px;
+    }
+
+    /* -----------------------page01--------------------- */
+    .page01 {
+        height: 568px;
+        padding-top: 138px;
+    }
+    .Sub-standard {
+        width: 260px;
+        height: 27px;
+        margin: 10px auto 0 auto;
+    }
+    .title {
+        width: 280px;
+        height: 148px;
+    }
+    .btnbox ul li {
+        width: 215px;
+        height: 45px;
+        margin: 5px auto;
+    }
+    .btn_fontstyle {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .page02_img {
+        width: 310px;
+        overflow: hidden;
+    }
+    .man{
+        width: 695px;
+    }
+    .page01_front{
+        height: 500px;
+    }
+}
